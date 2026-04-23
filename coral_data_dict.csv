@@ -1,0 +1,63 @@
+Supplied Name,Supplied Description,Supplied Units,Standard Name
+Site_ID,Unique identifier for each site,unitless,site
+Sample_ID,Unique identifier for each sampling event,unitless,sample
+Data_Source,Source of data set,unitless,sampling_method
+Latitude_Degrees,Latitude coordinates (positive vaues = North; negative values = South),degrees North,latitude
+Longitude_Degrees,Longitude coordinates (positive values = East; negative values = West),degrees East,longitude
+Ocean_Name,The ocean in which the sampling took place,unitless,region
+Reef_ID,Unique identifier from Reef Check data,unitless,Site_ID
+Realm_Name,Identification of realm as defined by the Marine Ecoregions of the World (MEOW) Spalding et al. 2007,unitless,region
+Ecoregion_Name,Identification of the Ecoregions (150) as defined by Veron et al,unitless,region
+Country_Name,The country where sampling took place,unitless,region
+State_Island_Province_Name,"The state, territory (e.g., Guam) or island group (e.g., Hawaiian Islands) where sampling took place",unitless,region
+City_Town_Name,"The region, city, or nearest town, where sampling took place",unitless,region
+Site_Name,The accepted name of the site or the name given by the team that sampled the reef,unitless,site
+Distance_to_Shore,The distance of the sampling site from the nearest land,meters (m),length
+Exposure,"The site's exposure to fetch. Site was considered exposed if it had >20 km of fetch if there were strong seasonal winds or if the site faced the prevailing winds. Otherwise the site was considered sheltered or "sometimes". "Sometimes" refers to a few sites with a >20 km fetch through a narrow geographic window and therefore we considered that the site was potentially exposed during cyclone seasons.",unitless,site_descrip
+Turbidity,"Kd490 with a 100-km buffer. Turbidity was considered to be positively related to the diffuse attenuation coefficient of light at the 490 nm wavelength (Kd490), or the rate at which light at 490 nm is attenuated with depth. For example, a Kd490 value of 0.1 m?1 means that light intensity is reduced by one natural-log value within 10 m of water. High values of Kd490, therefore, represent high attenuation and hence high turbidity.",reciprocal meters (m-1),turbidity
+Cyclone_Frequency,number of cyclone events from 1964 to 2014,unitless,site_descrip
+Date_Day,the day of the sampling event,unitless,day
+Date_Month,the month of sampling event,unitless,month
+Date_Year,the year of sampling event,unitless,year
+Depth_m,depth of sampling site,meters (m),depth_w
+Substrate_Name,type of substrate from Reef Check data,unitless,site_descrip
+Percent_Cover,average cover value (percent),percent,percent_cover
+Bleaching_Level,"Reef Check data coral population or coral colony",unitless,site_descrip
+Percent_Bleaching,"An average of four transect segments (Reef Check) or average of a bleaching code",percent,bleach_percent
+ClimSST,"Climatological sea surface temperature (SST) based on weekly SSTs for the study time frame created using a harmonics approach",degrees Celsius,temp_ss
+Temperature_Kelvin,Temperature in Kelvin,Kelvin,temperature
+Temperature_Mean,Mean Temperature,degrees Celsius,temperature
+Temperature_Minimum,Minimum Temperture,degrees Celsius,temperature
+Temperature_Maximum,Maximum Temperature,degrees Celsius,temperature
+Temperature_Kelvin_Standard_Deviation,Standard deviation of temperature,Kelvin,temperature
+Windspeed,Windspeed,meters per hour,wind_speed
+SSTA,Sea Surface Temperature Anomaly: weekly SST minus weekly climatological SST,degrees Celsius,temp_ss
+SSTA_Standard_Deviation,The Standard Deviation of weekly SST Anomalies over the entire time period,degrees Celsius,temp_ss
+SSTA_Mean,The mean SSTA over the entire time period,degrees Celsius,temp_ss
+SSTA_Minimum,The minimum SSTA over the entire time period,degrees Celsius,temp_ss
+SSTA_Maximum,The maximum SSTA over the entire time period,degrees Celsius,temp_ss
+SSTA_Frequency,Sea Surface Temperature Anomaly Frequency: number of times over the previous 52 weeks that SSTA >=1 degree C,SSTA per time period,temp_ss
+SSTA_Frequency_Standard_Deviation,The standard deviation of SSTA_Frequency over the entire time period,SSTA per time period,temp_ss
+SSTA_FrequencyMax,The maximum SSTA_Frequency over the entire time period,SSTA per time period,temp_ss
+SSTA_FrequencyMean,The mean SSTA_Frequency over the entire time period,SSTA per time period,temp_ss
+SSTA_DHW,Sea Surface Temperature Degree Heating Weeks: sum of previous 12 weeks when SSTA>=1 degree C,weeks,time_elapsed
+SSTA_DHW_Standard_Deviation,The standard deviation SSTA_DHW over the entire time period,weeks,temp_ss
+SSTA_DHWMax,The maximum SSTA_DHW over the entire time period,weeks,temp_ss
+SSTA_DHWMean,The mean SSTA_DHW over the entire time period,weeks,temp_ss
+TSA,Thermal Stress Anomaly: Weekly sea surface temperature minus the maximum of weekly climatological sea surface temperature,degrees Celsius,temperature
+TSA_Standard_Deviation,The standard deviation of TSA over the entire time period,degrees Celsius,temperature
+TSA_Minimum,The minimum TSA over the entire time period,degrees Celsius,temperature
+TSA_Maximum,The maximum TSA over the entire time period,degrees Celsius,temperature
+TSA_Mean,The mean TSA over the entire times period,degrees Celsius,temperature
+TSA_Frequency,Thermal Stress Anomaly Frequency: number of times over previous 52 weeks that TSA >=1 degree C,TSA per time period,temperature
+TSA_Frequency_Standard_Deviation,The standard deviation of frequency of thermal stress anomalies over the entire time period,TSA per time period,temperature
+TSA_FrequencyMax,The maximum TSA_Frequency over the entire time period,TSA per time period,temperature
+TSA_FrequencyMean,The mean TSA_Frequency over the entire time period,TSA per time period,temperature
+TSA_DHW,Thermal Stress Anomaly (TSA) Degree Heating Week (DHW): Sum of previous 12 weeks when TSA >=1 degree C,weeks,time_elapsed
+TSA_DHW_Standard_Deviation,The standard deviation of TSA_DHW over the entire time period,weeks,time_elapsed
+TSA_DHWMax,The maximum TSA_DHW over the entire time period,weeks,time_elapsed
+TSA_DHWMean,The mean TSA_DHW over the entire time period,weeks,time_elapsed
+Date,date of sampling event in format YYYY-MM-DD,%Y-%m-%d,date
+Site_Comments,comments of any issues with the site or additional information,unitless,comment
+Sample_Comments,comments of any issue or additional information of sampling event,unitless,comment
+Bleaching_Comments,comments of any issue or additional information of bleaching value,unitless,comment
